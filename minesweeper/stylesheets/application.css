@@ -1,0 +1,78 @@
+body {
+  /* font-size: 100px; */
+  font-family: sans-serif;
+  /* align-content: center;  */
+  background-image: 
+}
+
+.page {
+  position: relative;
+  /* justify-content: center; */
+}
+
+.game {
+  margin: 0 auto; 
+  width: 300px;
+}
+
+.board {
+  top: 150px; 
+  /* left: 100px; */
+  position: absolute; 
+  /* margin: 0 auto;  */
+  display: flex;
+  /* justify-content: center; */
+  border: grey solid 1px;
+}
+
+.row {
+  display: block;
+    text-align: center; 
+
+  /* align-items: center; */
+}
+
+.tile {
+  /* border: 1px solid grey; */
+  background-color: lightgrey;
+  min-height: 30px; 
+  min-width: 30px;
+  text-align: center;
+  border-style: outset;
+  line-height: 30px;
+  /* padding: 9px; */
+}
+
+.unexplored {
+  /* color: lightgrey ; */
+  border-style: outset;
+}
+
+.flagged {
+  background-image: url("../frontend/assets/Iwojma.png");
+  background-size: contain;
+
+}
+
+.explored {
+  border-style: inset;
+ /* box-shadow: 2 2 2 2; */
+ /* background-color: grey;  */
+}
+
+.bombed {
+ /* background-color: grey;  */
+  border-style: inset;
+  background-image: url("../frontend/assets/download.jpg");
+  background-size: contain;
+}
+
+h1, h4, p {
+  text-align: center; 
+  color: blue; 
+}
+
+p {
+  bottom: 30px;
+  position: absolute;
+}
